@@ -14,7 +14,7 @@ class HomePage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text("hello".tr()),
-            Text("Welcome".tr()),
+            Text("welcome".tr()),
             ElevatedButton(
                 onPressed: () {
                   context.setLocale(LangConstant.TR_LOCALE);
